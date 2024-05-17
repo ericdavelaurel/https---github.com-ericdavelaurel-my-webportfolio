@@ -434,15 +434,17 @@ svg {
 }
 
 .projects__container {
-    row-gap: 2rem;
-    justify-content: center;
-    padding-block: 1rem;
+    float: left;
+    width: 50%;
+    padding-left: 37%;
 }
+
 
 .projects__card {
     position: relative;
     border-radius: 1rem;
     overflow: hidden;
+    height: 200px;
 }
 
 .projects__img {
@@ -498,6 +500,11 @@ svg {
 
 .projects__card:hover .projects__modal {
     bottom: 0;
+}
+
+.spacer {
+    height: 10%;
+    background-color: red;
 }
 
 /* contact */
